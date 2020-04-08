@@ -1,0 +1,39 @@
+Installation instruction of Marray toolbox in Matlab Windows version:
+1. Unzip marrayv2.ZIP file.
+2. Copy marrayV2 to J:matlabR12\toolbox\  (If your Matlab toolbox is installed at here)
+3. Copy demo data marrayV2_demodata to J:matlabR12\work\  
+   (If your Matlab work path is installed at here)
+4. Go to Matlab startup file, normally you will find it in 
+   J:matlabR12\toolbox\local\startup.m
+   if you did not find startup.m file please save startupsav.m as
+   stratup.m
+5. Then add the path of Marray toolbox in startup.m
+6. For example at here, we add bellow line in startup.m
+   path(path,'J:\matlabR12\toolbox\marrayV2')
+7. Now Marray become one of Matlab toolbox when you 
+   start Matlab in the next time.
+
+Installation instruction of Marray toolbox in Matlab Unix (Linux) version:
+1. Unzip marrayv2.ZIP file.
+2. Copy marrayV2 to 
+   /home/username/matlab_toolbox/  
+   (If you want Marray toolbox to be installed at here)
+3. Copy demo data marrayV2_demodata to /home/username/  
+   (If you want to test the demo data at here)
+4. Edit the shell start file, for example for tcsh please
+   edit .cshrc file
+5. Then add the path of Marray toolbox in this file.
+6. For example at here, we add bellow line in .cshrc
+   setenv MATLABPATH /home/username/matlab_toolbox/marrayV2/
+7. Use source command to reload the .cshrc file, source .cshrc
+8. Now Marray become one of Matlab toolbox when you 
+   start Matlab in the next time.
+
+J.B.Wang
+12/10/01.
+Tumor Biology Department, Den Norsk Radium Hospital
+
+
+
+
+
